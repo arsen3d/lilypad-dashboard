@@ -23,7 +23,7 @@ const RouteProvider = () => {
 function App() {
     return (
         <main>
-            <CorbadoProvider projectId={PROJECT_ID} darkMode="off">
+            <CorbadoProvider darkMode="on" projectId={PROJECT_ID} >
                 <RouteProvider />
             </CorbadoProvider>
         </main>

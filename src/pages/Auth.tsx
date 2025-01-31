@@ -15,8 +15,8 @@ export default function Auth() {
     }
 
     return (
-        <div className="mx-auto mt-5">
-            <CorbadoAuth onLoggedIn={onLogin} />
+        <div className="flex items-center justify-center h-screen">
+            <CorbadoAuth    onLoggedIn={onLogin} />
         </div>
     )
 }
